@@ -1,0 +1,26 @@
+# داده‌های خصوصی کاربران — هیچ‌وقت نباید روی گیت‌هاب برن
+users.json
+conversations.json
+user_memory.json
+
+# فایل‌های تولیدشده توسط برنامه
+static/gifs/*
+!static/gifs/.gitkeep
+*.log
+
+# فایل‌های پایتون و محیط مجازی
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# فایل‌های مخفی/تنظیمات محلی
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# خروجی ساخت (PyInstaller)
+build/
+dist/
